@@ -1,0 +1,165 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    min-height: 450px;
+    height:100vh;
+    margin:0;
+    background-image: url("doodle.jpg");
+   /*background: radial-gradient(ellipse farthest-corner at center top,#f39264 0%, #f2606f 100%);*/
+    color:#fff;
+    font-family: 'Rowdies', cursive;
+}
+.image {
+    width:60%;
+    background: image("santorini-6.jpg");
+}
+.work-list {
+    position: relative;
+   margin-left: auto;
+   margin-right: auto;   
+   margin-top: 109px;
+    width:360px;
+    min-height:330px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow:40px 40px 30px  rgba(62,9,11,0.8888);
+}
+.footed {
+    /*.main {
+   position: fixed;
+   
+   width: 100%;
+   text-align: center;
+   padding-bottom: 15px;
+}*/
+    position: relative;
+    margin-left: 20px;
+    margin-right: auto;
+    padding: auto;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 25px;
+    padding-bottom:20px ;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+    
+}
+#photo {
+    width:360px;
+    height:200px;
+    border-radius: 12px 12px 0 0;
+}
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18.65px;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    text-align:center;
+}
+.cover-text {
+    position: relative;
+    
+}
+
+.addBtn {
+    text-align: center;
+    padding-top:auto;
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+  input {
+      left:8%;
+    margin: 0;
+    border: 1px grey solid;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  #date {
+      line-height: 2px;
+      font-size: 25px;
+      }
+  #time {
+      line-height: 2px;
+      font-size: 30px;
+  }
+  #myUL {
+    overflow-y: scroll;
+  }
+  ul {
+      margin: 0;
+      padding: 0;
+  }
+  ul li {
+      width:100%;
+      left:0;
+      position: relative;
+      cursor: pointer;
+      padding: 12px 8px 12px 40px;
+      list-style-type: none;
+      text-decoration: none;
+      background: #eee;
+      color:black;
+      font-family:'Bree serif', cursive;
+      font-size: 16px;
+      transition: 0.2s;
+      border: 2px solid #ddd;
+  }
+  ul li:hover {
+      background:#ddd;
+  }
+  ul li.checked {
+      text-decoration: line-through;
+      transition: 0.5s ease-in;
+      
+      
+  }
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    transition: 0.3s;
+    border-color:grey;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 6px;
+  }
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
