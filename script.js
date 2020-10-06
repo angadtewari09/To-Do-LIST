@@ -6,6 +6,7 @@
     event.returnValue = "Your custom message.";
 });
 */
+//To add the date and time to the header of the div
 var array = ["defalut"];
 
 var currentDate = new Date();
