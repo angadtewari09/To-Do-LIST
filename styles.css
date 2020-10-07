@@ -111,8 +111,8 @@ body {
   }
   #myUL {
     overflow-y: scroll;
-    max-height: 400px;
-    min-height: 200px;
+    max-height: 310px;
+    min-height: 310px;
   }
   ul {
       margin: 0;
