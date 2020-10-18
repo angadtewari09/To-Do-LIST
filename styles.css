@@ -5,7 +5,9 @@ body {
     min-height: 450px;
     height:100vh;
     margin:0;
-    background-image: url("doodle.jpg");
+    background-image: url("modern-city-skyline-background_77417-791.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
    /*background: radial-gradient(ellipse farthest-corner at center top,#f39264 0%, #f2606f 100%);*/
     color:#fff;
     font-family: 'Rowdies', cursive;
